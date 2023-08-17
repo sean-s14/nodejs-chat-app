@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-chat-app",
+  "version": "1.0.0",
+  "description": "Package.json configuration for a basic real-time chat application showcasing Node.js's event-driven architecture",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/sean-s14/nodejs-chat-app"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "chat",
+    "app"
+  ],
+  "author": "Sean Stocker",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  }
+}
